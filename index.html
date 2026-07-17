@@ -223,6 +223,17 @@
     background: radial-gradient(circle, rgba(244,162,97,0.1) 0%, transparent 70%);
     border-radius: 50%;
   }
+  #certificates {
+    background: var(--section-bg);
+  }
+  #certificates::before {
+    content: '';
+    position: absolute;
+    top: -100px; right: -100px;
+    width: 500px; height: 500px;
+    background: radial-gradient(circle, rgba(230,57,70,0.08) 0%, transparent 70%);
+    border-radius: 50%;
+  }
 
   .hero-container {
     display: flex;
@@ -1618,7 +1629,7 @@
         <h3>Heart Disease Prediction</h3>
         <p>Developed a machine learning model to predict heart disease based on patient data. Implemented feature engineering and model selection techniques to achieve high prediction accuracy.</p>
         <div class="tags"><span class="tag">ML</span><span class="tag">Python</span><span class="tag">Flask</span></div>
-        <div class="project-actions"><a href="https://heart-disease-prediction-j8fd.onrender.com" target="_blank" class="btn-demo"><i class="fas fa-external-link-alt"></i> Live Demo</a></div>
+        <div class="project-actions"><a href="https://heartdiseaseprediction-pwga.onrender.com/" target="_blank" class="btn-demo"><i class="fas fa-external-link-alt"></i> Live Demo</a></div>
       </div>
     </div>
   </div>
@@ -1654,7 +1665,7 @@
     <!-- Certificate 2 -->
     <div class="certificate-card">
       <div class="certificate-img-wrap">
-        <img src="ADVIcertificate.png" alt="Machine Learning & AI Prediction" loading="lazy" />
+        <img src="ADVICertificate.png" alt="Machine Learning & AI Prediction" loading="lazy" />
         <div class="certificate-img-overlay">
           <i class="fas fa-search-plus"></i>
         </div>
